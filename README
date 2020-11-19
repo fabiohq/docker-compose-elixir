@@ -1,0 +1,3 @@
+docker-compose run --rm phoenix mix phx.new . --app hello
+ docker-compose run --rm phoenix mix ecto.create
+ docker-compose run --rm phoenix mix ecto.migrate
